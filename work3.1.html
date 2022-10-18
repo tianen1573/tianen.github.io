@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>竖向菜单</title>
+  <style>
+    body{
+      margin: 8px;
+      font-size: 10px;
+      text-align: center;
+      font-family: verdana,geneva,sans-serif;
+
+    }
+    #menu{
+      width: 50px;
+      border: 1px solid #ccc
+    }
+    #menu ul{
+      margin: 0px;
+      padding: 0px;
+      list-style-type: none;
+    }
+    #menu ul li{
+      padding: 5px 0px;
+      background:#eee;
+      border-bottom: 1px dotted #ccc;
+
+    }
+    #menu ul li.last{
+      border-bottom: 0px;
+    }
+    a:link{
+      color: #000;
+      text-decoration: none;
+    }
+    a:hover{
+      color: #f00;
+    }
+  </style>
+</head>
+<body>
+<div id="menu">
+  <ul>
+    <li><a href="#">菜单项1</a></li>
+    <li><a href="#">菜单项2</a></li>
+    <li><a href="#">菜单项3</a></li>
+    <li><a href="#">菜单项4</a></li>
+    <li><a href="#">菜单项5</a></li>
+    <li class="last"><a href="#">菜单项6</a></li>
+  </ul>
+</div>
+
+</body>
+</html>

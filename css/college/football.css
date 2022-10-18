@@ -1,0 +1,25 @@
+*{
+    font-family: "微软雅黑";}
+html, body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("../../images/bg.jpg");
+    repeat: no-repeat;
+    background-attachment:fixed;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/bg.jpg", sizingMethod="");
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/bg.jpg", sizingMethod="scale");
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;}
+html{	font-size: 60%;}
+body {    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;    font-size: 14px;
+    color:#000;    margin: 0;    padding: 0;}
+.swiper-container {    width: 100%;    height: 100%;}
+.swiper-slide {    text-align: center;    font-size: 18px;    background: url("../../images/bg.jpg");    /* Center slide text vertically */    }
+.swiper-container-h .swiper-slide{	width: 650px;	height: 450px;	margin: auto;	background: url("../../images/bg.jpg");}
+.swiper-container-h .swiper-slide img{	width:100%;	height: 100%;}
+.swiper-container-v {    background: #eee;}
+.bg_works{	background-color:#E5F8F1;}

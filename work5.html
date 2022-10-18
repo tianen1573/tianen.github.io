@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>广告JS</title>
+</head>
+<style>
+    .advertising1{
+        background-color: #f001;
+        width: 80px;
+        height: 100px;
+        position:absolute;
+        top: 0;
+        left: 0;
+    }
+    .advertising2{
+        background-color: #f001;
+        width: 80px;
+        height: 100px;
+        position:absolute;
+        bottom:0;
+        right:0;
+    }
+    .advertising3{
+        background-color: #f001;
+        width: 80px;
+        height: 100px;
+        position:absolute;
+        top:0;
+        right:0;
+    }
+
+
+    a:hover{
+        color: red;
+    }
+
+</style>
+<body>
+
+<div class="advertising1" id="leftTop">
+    <a onclick="leftTop()" >关闭广告×</a>
+</div>
+<br>
+<div class="advertising2" id="rightDown">
+    <a onclick="rightDown()" >关闭广告×</a>
+</div>
+<div class="advertising3" id="rightTop">
+    <a onclick="rightTop()" >关闭广告×</a>
+</div>
+
+
+
+<script>
+    function leftTop() {
+        document.getElementById("leftTop").style.display="none";
+    }
+
+    function rightDown(){
+        document.getElementById("rightDown").style.display="none";
+    }
+    function rightTop(){
+        document.getElementById("rightTop").style.display="none";
+    }
+
+</script>
+</body>
+</html>

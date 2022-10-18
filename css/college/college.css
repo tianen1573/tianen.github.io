@@ -1,0 +1,22 @@
+*{
+    font-family: "微软雅黑";}
+html, body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;}
+html{	font-size: 60%;}
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;    font-size: 14px;
+    color:#000;    margin: 0;    padding: 0;}
+.swiper-container {    width: 100%;    height: 100%;}
+.swiper-slide {    text-align: center;    font-size: 18px;        /* Center slide text vertically */    }
+.swiper-container-h .swiper-slide{	width: 650px;	height: 450px;	margin: auto;	}
+.swiper-container-h .swiper-slide img{	width:100%;	height: 100%;}
+.swiper-container-v {    }
+.bg_works{	}
